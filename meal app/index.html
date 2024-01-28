@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="mobile-container">
+        <header>
+          <button id="reload">
+            <i class="fa-sharp fa-solid fa-rotate-right"></i>
+          </button>
+          <input type="text" id="Inputvalue" />
+          <button id="search"><i class="fas fa-search"></i></button>
+        </header>
+      </div>
+      <div class="favourite-container">
+        <h3>Favourite Meals</h3>
+        <ul class="favourite-meals" id="favourite-meals"></ul>
+      </div>
+      <div class="fav-meals" id="fav-meals"></div>
+    </div>
+    <div class="meal-info-container hidden" id="meal-info-container">
+      <div class="popup">
+        <button class="close-popup" id="close-popup">
+          <i class="fas fa-times"></i>
+        </button>
+        <div id="meal-info" class="meal-info"></div>
+      </div>
+    </div>
+
+    <script src="sensei.js"></script>
+  </body>
+</html>
