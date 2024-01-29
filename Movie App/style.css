@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(47, 53, 66, 1);
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+header {
+  box-shadow: 0 10px 30px rgba(38, 39, 62, 0.744);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+header input {
+  background-color: rgb(62, 74, 100);
+  border-radius: 10px;
+  border: none;
+  height: 1.8rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(232, 232, 232);
+  font-family: inherit;
+  width: 150px;
+  padding: 0 5px;
+}
+header input::placeholder {
+  font-size: 1rem;
+  color: rgb(193, 190, 190);
+}
+header input:focus {
+  outline: none;
+  background-color: rgba(62, 74, 100, 0.457);
+}
+#main {
+  padding: 1rem 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  max-height: 600px;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#imageDiv {
+  margin: 0;
+  height: 400px;
+  overflow: hidden;
+}
+#movieIMG {
+  width: 400px;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+#infoDiv {
+  position: relative;
+  background-color: rgba(81, 90, 155, 0.783);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  margin: 0;
+  padding: 0 1rem;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+#movieH1 {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+#movieH1:hover {
+  white-space: normal;
+  overflow: auto;
+}
+#movieRATING {
+  font-family: inherit;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 1rem;
+}
+#overViewDiv {
+}
+#detailsContainer {
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  /* padding: 1rem 2rem; */
+  color: white;
+}
+#detailsContainer button{
+  background: transparent;
+  border: none;
+  font-size: 1.7rem;
+  position: fixed;
+  right: 8rem;
+}
+#firstDetails {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+#detailImage {
+}
+#detailImage img {
+  width: 400px;
+  height: 400px;
+  
+}
+#detailsInfo {
+  padding: 0;
+  width: 550px;
+}
+#detailsInfo h1 {
+  width: 550px;
+  margin: 0;
+}
+#detailsInfo h2 {
+  width: 550px;
+}
+#detailsInfo h3 {
+  width: 550px;
+}
+#detailsInfo h4 {
+  width: 550px;
+}
+#detailsInfo h5 {
+  width: 550px;
+}
+#detailsInfo p {
+  font-size: 1.3rem;
+  width: 550px;
+}
+#secondDetails {
+}
+#secondDetails img {
+  width: 1000px;
+}
+
+#detailsContainer {
+}
