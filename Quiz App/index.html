@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="question-container">
+        <div class="question-header">
+            <h2 id="question">Queston text</h2>
+        </div>
+        <div id="optionDiv">
+            <ul>
+                <li>
+                    <input name="answer" class="answer" id="a"  type="radio">
+                    <label id="a_text" for="a">options</label>
+                </li>
+                <li>
+                    <input name="answer" class="answer" id="b" type="radio">
+                    <label id="b_text" for="b">options</label>
+                </li>
+                <li>
+                    <input name="answer" class="answer" id="c" type="radio">
+                    <label id="c_text" for="c">options</label>
+                </li>
+                <li>
+                    <input name="answer" class="answer" id="d" type="radio">
+                    <label id="d_text" for="d">options</label>
+                </li>
+            </ul>
+        </div>
+
+        <button id="submit">Submit</button>
+        <button id="reload">Reload</button>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="sensei.js"></script> -->
+  </body>
+</html>
