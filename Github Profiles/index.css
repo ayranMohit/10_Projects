@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(62, 62, 60);
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+main {
+  background-color: rgb(80, 80, 79);
+  padding: 0.5rem 0 1rem 0.7rem;
+  margin-top: 2rem;
+  border-radius: 10px 10px 0 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+[class*="col"] {
+  /* min-height: 10rem; */
+  /* border: 1px solid white; */
+  padding: 0;
+  color: white;
+}
+.col-4 img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+}
+
+.col-8 {
+  padding: 0.5rem 0 0 1rem;
+}
+#search {
+  border-radius: 0 5px 5px 0;
+}
+#ul {
+  margin-top: 1rem;
+  justify-content: center;
+  display: flex;
+  gap: 1.4rem;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+#reposDiv{
+  background-color: rgb(80, 80, 79);
+  
+  padding: 1rem;
+  border-radius: 0 0 10px 10px;
+}
+
+#reposDiv a button{
+  background-color: rgb(66, 66, 65);
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  color: white;
+  padding: .2rem .4rem;
+}
+#reposDiv a button:hover{
+  font-size: larger;
+}
