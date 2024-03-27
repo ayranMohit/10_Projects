@@ -65,4 +65,5 @@ searchBtn.onclick=()=>{
       showData(json);
     });
   showRepos(input.value)
+  input.value=""
 }
