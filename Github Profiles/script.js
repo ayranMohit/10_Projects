@@ -5,7 +5,7 @@ const reposDiv = document.getElementById("reposDiv");
 
 const APIURL = "https://api.github.com/users/";
 const accessToken =
-  "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";
+  "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";
 
 
 showData = (parameter) => {
