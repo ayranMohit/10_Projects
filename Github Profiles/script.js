@@ -4,8 +4,6 @@ const main = document.getElementById("main");
 const reposDiv = document.getElementById("reposDiv");
 
 const APIURL = "https://api.github.com/users/";
-const accessToken =
-  "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";
 
 
 showData = (parameter) => {
@@ -32,12 +30,7 @@ showData = (parameter) => {
 </div>`;
 };
 showRepos = (parameter) => {
-  fetch(APIURL + parameter + "/repos", {
-    headers: {
-      Authorization: `token ${accessToken}`,
-      Accept: "application/vnd.github.v3+json",
-    },
-  })
+  fetch(APIURL + parameter + "/repos", { Origin : "cors"} )
     .then((response) => response.json())
     .then((json) => {
       json.forEach((element) => {
@@ -53,12 +46,7 @@ showRepos = (parameter) => {
     });
 };
 searchBtn.onclick=()=>{
-  fetch(APIURL + input.value, {
-    headers: {
-      Authorization: `token ${accessToken}`,
-      Accept: "application/vnd.github.v3+json",
-    },
-  })
+  fetch(APIURL + input.value, { Origin : "cors"} )
     .then((response) => response.json())
     .then((json) => {
       console.log(json);
